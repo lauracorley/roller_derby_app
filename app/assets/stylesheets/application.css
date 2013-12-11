@@ -1,0 +1,13 @@
+
+div.body
+{width:1000px; float:left}
+div.tweetbox
+{width: 20%; height:700px; float:right; overflow:scroll }
+    div.tweet
+    {height:60px}
+    div.profilepic
+        {width:10%;  float:left}
+        div.tweettext
+        {float:right; width:80%}
+
+

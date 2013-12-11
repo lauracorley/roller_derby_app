@@ -1,0 +1,24 @@
+
+<%= image_tag"banner_placeholder.png", alt:"around the rink banner" %>
+<h1>Roller Derby</h1>
+  <div class=tweetbox id="tweets">
+    <h1>The Rink on Twitter</h1>
+    <% @tweets.each do |tweet| %>
+        <div class=tweet>
+
+        <div class=profilepic>
+          <%= link_to(image_tag(tweet.user.profile_image_url),"http://twitter.com/#{tweet.user.screen_name}") %>
+        </div>
+
+        <div class=tweettext>
+        <%= link_to(tweet.user.screen_name,"http://twitter.com/#{tweet.user.screen_name}") %>
+          <br>
+        <%= tweet.text %>
+        </div>
+
+        </div><br>
+  <% end %>
+  </div>
+
+<div class=body id=picture>
+  <%= image_tag("pic1.jpg", width: "90%") %>
