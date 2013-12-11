@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b373c248-db27-42cc-84d9-e1c44ba75cf7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Roller_Derby_app.iml" afterPath="$PROJECT_DIR$/.idea/Roller_Derby_app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome_controller/index.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome_controller/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Roller_Derby_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +17,7 @@
     <file path="/roller_derby_controller" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1385398429675" ignored="false" />
     <file path="/insta_gram" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386348272265" ignored="false" />
     <file path="/rollergram.rb" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386350153626" ignored="false" />
-    <file path="/Dummy.txt" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386738854252" ignored="false" />
+    <file path="/Dummy.txt" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386740080496" ignored="false" />
     <file path="/database.yml" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386736342302" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +59,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/welcome_controller/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="39" selection-start="749" selection-end="749" vertical-scroll-proportion="0.7310469">
+            <state line="27" column="38" selection-start="748" selection-end="748" vertical-scroll-proportion="0.7310469">
               <folding />
             </state>
           </provider>
@@ -825,7 +821,11 @@
       <created>1386738855768</created>
       <updated>1386738855768</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="roller_derby_app">
+      <created>1386740092705</created>
+      <updated>1386740092705</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1011,7 +1011,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome_controller/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="39" selection-start="749" selection-end="749" vertical-scroll-proportion="0.7310469">
+        <state line="27" column="38" selection-start="748" selection-end="748" vertical-scroll-proportion="0.7310469">
           <folding />
         </state>
       </provider>
