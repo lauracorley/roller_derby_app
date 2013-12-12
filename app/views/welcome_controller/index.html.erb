@@ -1,12 +1,15 @@
 <head>
   <title>Roller Derby Resource</title>
-  <%= image_tag("favicon.ico") %>
-  <link rel="icon" href="favicon.ico" >
+  <%= favicon_link_tag 'favicon.ico' %>
+
+  <div class=banner>
+    <%= image_tag"rollerbanner.png", alt:"around the rink banner" %>
+  </div>
 </head>
-<%= image_tag"banner_placeholder.png", alt:"around the rink banner" %>
-<h1>Roller Derby</h1>
+
+<body>
   <div class=tweetbox id="tweets">
-    <h1>The Rink on Twitter</h1>
+    <h1 style="text-align:center;">The Rink on Twitter</h1>
     <% @tweets.each do |tweet| %>
         <div class=tweet>
 
@@ -24,6 +27,7 @@
   <% end %>
   </div>
   <div class="intstabox">
+    <h1 style="text-align:center;">Instagram</h1>
     <% @instagrams.each do |instagram| %>
         <%= link_to image_tag(instagram.images.thumbnail.url), instagram.link %>
     <% end %>
@@ -35,15 +39,11 @@
 
 </div>
 
-<style>
-    div.feed
-    {width:25%; float:right
-    }
-</style>
 
-<h1 style="text-align: right">Roller Derby News</h1>
 <div class=feed id="feed">
+  <h1 style="text-align: center">Roller Derby News</h1>
   <% @feed.entries.each do |entry| %>
       <%= link_to((entry.title), entry.url) %>
   <% end %>
 </div>
+</body>
