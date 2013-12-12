@@ -5,14 +5,11 @@ gem 'rails', '4.0.1'
 
 # Use sqlite3 as the database for Active Record
 
-group :development, :test do
-  gem 'sqlite3'
-end
+#gem 'sqlite3'
 
-group :production do
-  gem 'pg'
 
-end
+gem 'pg'
+
 
 gem 'rails_12factor', group: :production
 
