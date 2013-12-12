@@ -8,6 +8,13 @@
 </head>
 
 <body>
+  <div class=menu>
+    <div class=menuitem><p style="text-align:center;">Link</p></div>
+    <div class=menuitem><p style="text-align:center;">Link</p></div>
+    <div class=menuitem><p style="text-align:center;">Link</p></div>
+    <div class=menuitem><p style="text-align:center;">Link</p></div>
+  </div>
+  <div class=container>
   <div class=tweetbox id="tweets">
     <h1 style="text-align:center;">The Rink on Twitter</h1>
     <% @tweets.each do |tweet| %>
@@ -46,5 +53,6 @@
       <%= link_to((entry.title), entry.url) %>
       <br>
   <% end %>
+</div>
 </div>
 </body>
