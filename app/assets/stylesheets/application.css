@@ -30,7 +30,8 @@ div.menuitem
 
     }
 div.container
-    {padding:5px;}
+    {padding:30px;
+    height:100%;}
 div.tweetbox
     {width: 500px;
     height:600px;
@@ -42,11 +43,15 @@ div.tweetbox
         div.tweet
             {height:60px}
         div.profilepic
-            {width:20%;  float:left}
+            {width:30px;
+            float:left;
+            padding-right:5px;
+            margin-left:auto;
+            margin-right:auto;}
         div.tweettext
-            {float:right; width:80%}
+            {float:right; width:89%}
 div.intstabox
-    {width:320px;
+    {width:480px;
     height:600px;
     float:left;
     padding:5px;
@@ -55,7 +60,7 @@ div.intstabox
     box-shadow: 10px 10px 5px #7e4c89;
     }
 div.feed
-    {width:30%;
+    {width: calc(95% - 980px);
     height:600px;
     padding:5px;
     margin-left:auto;
