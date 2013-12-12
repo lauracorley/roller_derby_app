@@ -1,19 +1,18 @@
 development:
- adapter: postgresql
- database: my_database_development
- pool: 5
- timeout: 5000
+  adapter: postgresql
+  database: my_database_development
+  pool: 5
+  timeout: 5000
 test:
- adapater: postergresql
- database: my_database_test
- pool: 5
- timeout: 5000
+  adapter: postgresql
+  database: my_database_test
+  pool: 5
+  timeout: 5000
 
 production:
- adapter: postgreql
- database: my_database_production
- pool: 5
- timeout: 5000
+  adapter: postgresql
+  database: my_database_production
+  pool: 5
+  timeout: 5000
 
-
- host: localhost
+  host: localhost

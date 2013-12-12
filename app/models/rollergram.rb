@@ -1,7 +1,6 @@
 class Rollergram
 
   def self.retrieve
-    Instagram.media_popular
-    #you can use old code
+    Instagram.tag_recent_media("RollerDerby")
   end
 end

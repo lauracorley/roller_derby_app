@@ -1,13 +1,18 @@
 source 'https://rubygems.org'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+# Bundle edge Rails instead: gem 'rails', git_hub: 'rails/rails'
 gem 'rails', '4.0.1'
 
 # Use sqlite3 as the database for Active Record
 
-gem 'sqlite3'
+group :development, :test do
+  gem 'sqlite3'
+end
 
-gem 'pg'
+group :production do
+  gem 'pg'
+
+end
 
 gem 'rails_12factor', group: :production
 
@@ -38,10 +43,15 @@ gem 'twitter', '~> 4.8'
 
 gem 'instagram'
 
+gem 'youtube'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+
+
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

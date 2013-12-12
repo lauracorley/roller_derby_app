@@ -1,4 +1,8 @@
-
+<head>
+  <title>Roller Derby Resource</title>
+  <%= image_tag("favicon.ico") %>
+  <link rel="shortcut icon" href="favicon.ico" >
+</head>
 <%= image_tag"banner_placeholder.png", alt:"around the rink banner" %>
 <h1>Roller Derby</h1>
   <div class=tweetbox id="tweets">
@@ -20,9 +24,26 @@
   <% end %>
   </div>
   <div class="intstabox">
-     <%= puts Instagram.media_popular %>
+    <% @instagrams.each do |instagram| %>
+     <%= link_to(instagram.images.thumbnail.url), instagram.link %>
+    <% end %>
   </div>
 
 <div class=body id=picture>
 
   <%= image_tag("pic1.jpg", width: "90") %>
+
+</div>
+
+<style>
+    div.feed
+    {width:25%; float:right
+    }
+</style>
+
+<h1 style="text-align: right">Roller Derby News</h1>
+<div class=feed id="feed">
+  <% @feed.entries.each do |entry| %>
+      <%= link_to((entry.title),"http://www.screwattack.com/news/#{entry.title}") %>
+  <% end %>
+</div>
