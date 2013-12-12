@@ -17,7 +17,7 @@
     <file path="/roller_derby_controller" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1385398429675" ignored="false" />
     <file path="/insta_gram" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386348272265" ignored="false" />
     <file path="/rollergram.rb" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386780638013" ignored="false" />
-    <file path="/Dummy.txt" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386818449184" ignored="false" />
+    <file path="/Dummy.txt" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386818809097" ignored="false" />
     <file path="/database.yml" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386736342302" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -576,7 +576,11 @@
       <created>1386818453394</created>
       <updated>1386818453394</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="roller_derby_app">
+      <created>1386818810294</created>
+      <updated>1386818810294</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
