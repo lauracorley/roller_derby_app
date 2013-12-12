@@ -20,5 +20,3 @@ Instagram.configure do |config|
   config.access_token = "702404970.727a278.d770680712284a3f87d1c98192570ad7"
 end
 
-
-YouTube::Client.new "1074904718822.apps.googleusercontent.com"

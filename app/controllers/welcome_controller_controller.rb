@@ -3,5 +3,5 @@ class WelcomeControllerController < ApplicationController
     @tweets = Tweet.retrieve
     @feed = Feed.retrieve
     @instagrams = Rollergram.retrieve
-  end
+    end
 end

@@ -25,7 +25,7 @@
   </div>
   <div class="intstabox">
     <% @instagrams.each do |instagram| %>
-     <%= link_to(instagram.images.thumbnail.url), instagram.link %>
+        <%= link_to image_tag(instagram.images.thumbnail.url), instagram.link %>
     <% end %>
   </div>
 
@@ -44,6 +44,6 @@
 <h1 style="text-align: right">Roller Derby News</h1>
 <div class=feed id="feed">
   <% @feed.entries.each do |entry| %>
-      <%= link_to((entry.title),"http://www.screwattack.com/news/#{entry.title}") %>
+      <%= link_to((entry.title), entry.url) %>
   <% end %>
 </div>
