@@ -6,6 +6,7 @@ div.banner
 {background-image:url("rollerbannerVRTRPT.png");
  background-repeat:repeat-x;
  }
+
 div.body
 {width:1000px; float:left}
 div.menubar
