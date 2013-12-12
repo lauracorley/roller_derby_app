@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b373c248-db27-42cc-84d9-e1c44ba75cf7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollerbanner.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Roller_Derby_app.iws" />
@@ -19,7 +17,7 @@
     <file path="/roller_derby_controller" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1385398429675" ignored="false" />
     <file path="/insta_gram" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386348272265" ignored="false" />
     <file path="/rollergram.rb" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386780638013" ignored="false" />
-    <file path="/Dummy.txt" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386841159203" ignored="false" />
+    <file path="/Dummy.txt" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386842157689" ignored="false" />
     <file path="/database.yml" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386822051753" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/welcome_controller/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="68" selection-start="175" selection-end="175" vertical-scroll-proportion="0.1394052">
+            <state line="22" column="60" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.6133829">
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -968,7 +966,11 @@
       <created>1386841162819</created>
       <updated>1386841162820</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="roller_derby_app">
+      <created>1386842163636</created>
+      <updated>1386842163639</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -980,7 +982,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16808964" sideWeight="0.6758305" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16808964" sideWeight="0.6758305" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -1156,7 +1158,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome_controller/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="68" selection-start="175" selection-end="175" vertical-scroll-proportion="0.1394052">
+        <state line="22" column="60" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.6133829">
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
