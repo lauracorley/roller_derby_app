@@ -1,6 +1,6 @@
 <head>
   <title>Roller Derby Resource</title>
-  <%= favicon_link_tag 'favicon.ico' %>
+  <%= favicon_link_tag"favicon.ico" %>
 
   <div class=banner>
     <%= image_tag"rollerbanner.png", alt:"around the rink banner" %>
@@ -44,6 +44,7 @@
   <h1 style="text-align: center">Roller Derby News</h1>
   <% @feed.entries.each do |entry| %>
       <%= link_to((entry.title), entry.url) %>
+      <br>
   <% end %>
 </div>
 </body>

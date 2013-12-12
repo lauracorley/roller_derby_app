@@ -9,8 +9,9 @@ div.banner
 div.body
 {width:1000px; float:left}
 div.tweetbox
-    {width: 20%;
+    {width: 500px;
     height:600px;
+    padding:5px;
     float:right;
     overflow:scroll;
     background-color:#d392e1;
@@ -18,22 +19,26 @@ div.tweetbox
         div.tweet
             {height:60px}
         div.profilepic
-            {width:10%;  float:left}
+            {width:20%;  float:left}
         div.tweettext
             {float:right; width:80%}
 div.intstabox
     {width:320px;
     height:600px;
     float:left;
+    padding:5px;
     overflow:scroll;
     background-color:#d392e1;
     box-shadow: 10px 10px 5px #7e4c89;
     }
 div.feed
-    {width:100%;
+    {width:90%;
     height:600px;
+    padding:5px;
     margin-left:auto;
     margin-right:auto;
-    }
+    overflow:scroll;
+    background-color:#d392e1;
+    box-shadow: 10px 10px 5px #7e4c89;}
 
 
