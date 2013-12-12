@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b373c248-db27-42cc-84d9-e1c44ba75cf7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome_controller/index.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome_controller/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/welcome_controller/rollerbanner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/welcome_controller/rollerbannerVRTRPT.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Roller_Derby_app.iws" />
@@ -18,7 +19,7 @@
     <file path="/roller_derby_controller" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1385398429675" ignored="false" />
     <file path="/insta_gram" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386348272265" ignored="false" />
     <file path="/rollergram.rb" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386780638013" ignored="false" />
-    <file path="/Dummy.txt" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386834169942" ignored="false" />
+    <file path="/Dummy.txt" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386834351121" ignored="false" />
     <file path="/database.yml" changelist="b373c248-db27-42cc-84d9-e1c44ba75cf7" time="1386822051753" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +83,7 @@
       <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="39" selection-start="565" selection-end="650" vertical-scroll-proportion="0.57295376">
+            <state line="23" column="55" selection-start="508" selection-end="508" vertical-scroll-proportion="0.613879">
               <folding />
             </state>
           </provider>
@@ -180,8 +181,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="230" />
-    <option name="y" value="71" />
+    <option name="x" value="55" />
+    <option name="y" value="78" />
     <option name="width" value="1920" />
     <option name="height" value="970" />
   </component>
@@ -895,11 +896,19 @@
       <created>1386834172646</created>
       <updated>1386834172646</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="roller_derby_app">
+      <created>1386834298219</created>
+      <updated>1386834298219</updated>
+    </task>
+    <task id="LOCAL-00020" summary="roller_derby_app">
+      <created>1386834352769</created>
+      <updated>1386834352769</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="230" y="71" width="1920" height="970" extended-state="0" />
+    <frame x="55" y="78" width="1920" height="970" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1082,7 +1091,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="39" selection-start="565" selection-end="650" vertical-scroll-proportion="0.57295376">
+        <state line="23" column="55" selection-start="508" selection-end="508" vertical-scroll-proportion="0.613879">
           <folding />
         </state>
       </provider>
